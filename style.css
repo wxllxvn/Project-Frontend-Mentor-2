@@ -1,0 +1,504 @@
+@charset "UFT-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-width: 320px;
+}
+
+header{
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.menu nav a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow', serif;
+    font-weight: 600;
+    margin: 0 1.5rem;
+    border-radius: 50px;
+    padding: 1.2rem;
+
+}
+
+.menu nav a:hover{
+    background-color: rgb(153, 223, 255);
+    transition: all 0.3s;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    margin-top: 10rem;
+    letter-spacing: 15.5px;
+    text-align: center;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.flex-1{
+    display: flex;
+    flex: 2;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-2{
+    display: flex;
+    flex: 2;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-1 img{
+    display: flex;
+    flex: 2;
+    width: 100%;
+}
+
+.flex-2 img{
+    display: flex;
+    flex: 2;
+    width: 100%;
+}
+
+.container{
+    width: 70%;
+    flex-direction: column;
+    text-align: justify;
+}
+.container h2{
+    font-size: 4.5rem;
+    width: 70%;
+    text-align: left;
+}
+
+.container p{
+    font-size: 1.8rem;
+    margin: 2.8rem 0;
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+}
+
+.container a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    border-bottom: yellow 2px solid;
+}
+
+
+.cc2{
+    border-bottom: #FE7563 2px solid !important;
+}
+
+.card-1{
+    flex: 2;
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60rem;
+    
+}
+
+.card-2{
+    flex: 2;
+    background-image: url(images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60rem;
+}
+
+.card-1, .card-2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container-2{
+    width: 50%;
+    text-align: center;
+}
+
+.container-2 h2{
+    font-size: 2.5rem;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.container-2 p{
+    font-size: 1.8rem;
+    margin: 3rem 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container-2 p, .container-2 h2{
+    color: hsl(167, 40%, 24%)
+}
+
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec-2-content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-2-content h2{
+    margin: 10rem 0;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    color: hsl(210, 4%, 67%);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 18rem;
+}
+
+
+.card{
+    text-align: center;
+    width: 33%;
+
+}
+.card img{
+    border-radius: 50%;
+    width: 10rem;
+}
+
+p.desc{
+    font-size: 1.8rem;
+    margin: 3rem 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+p.name{
+    font-size: 2rem;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+}
+
+p.prof{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+}
+
+.sec-3{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-sec-3, .row-sec-3-2{
+    display: flex;
+}
+
+
+.row-sec-3 img, .row-sec-3-2 img{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+footer, .menu-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(210, 4%, 67%);
+
+}
+
+.menu-footer{
+    margin: 7rem 0;
+}
+
+.footer-itens{
+    margin: 2rem 0 8rem 0;
+}
+
+.footer-itens a{
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Barlow', sans-serif;
+    padding: 0 1rem;
+    
+}
+
+.footer-itens a:hover{
+    color: white;
+    transition: all 0.3s;
+}
+
+.social-media img{
+    padding: 0 1rem;
+}
+
+
+
+
+#btn{
+    display: none;
+}
+
+
+@media (max-width: 970px){
+    .row{
+        flex-direction: column;
+    }
+
+    .row-2{
+        flex-direction: column-reverse;
+    }
+
+    .container{
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 50%;
+        text-align: center;
+    }
+
+    .container h2{
+        text-align: center;
+        width: 100%;
+    }
+
+    .flex-1{
+        margin: 5rem 0;
+    }
+
+    .card-1, .card-2{
+        flex: none;
+    }
+
+    .card-2{
+        width: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 680px){
+    #menu-list{
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+        top: 6rem;
+        right: 0px;
+        height: 0;
+        background-color: white;
+        z-index: 99999;
+        transition: .6s;
+        overflow-y: hidden;
+    }
+
+    #btn{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1.9rem;
+        border: none;
+        background-color: #3EBFFF;
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 900;
+        color: white;
+        gap: .5rem;
+        align-items: center;
+
+    }
+
+    #menu-list.active {
+        display: block;
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+
+    }
+
+    #menu-list.active a{
+        color: black;
+        display: block;
+        margin-top: 2rem;
+        border-bottom: black 1px solid;
+        border-radius: 0;
+    }
+    body.scrol{
+        overflow: hidden;
+    }
+
+    #hamb{
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamb::after, #hamb::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin-top: 5px;
+        transition: 0.3s;
+    }
+
+    body.scrol #hamb{
+        border-top-color: transparent;
+    }
+
+    body.scrol #hamb::before{
+        transform: rotate(135deg);
+    }
+
+    body.scrol #hamb::after{
+        position: relative;
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+
+}
+
+
+@media (max-width: 660px){
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .card{
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    .sec-2-content h2{
+        text-align: center;
+    }
+
+    p.prof{
+        margin-bottom: 10rem;
+    }
+
+
+}
+
+@media (max-width: 600px){
+    header{
+        background-image: url(images/mobile/image-header.jpg);
+    }
+
+    .sec-3{
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 460px){
+    html{
+        font-size: 60%;
+    }
+
+    header h1{
+        letter-spacing: 10px;
+    }
+}
+
+
+@media (max-width: 425px){
+    header h1{
+        font-size: 4.3rem;
+    }
+    .container h2{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 390px){
+    .container{
+        width: 80%;
+    }
+
+    .container-2{
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px){
+    header h1{
+        font-size: 3.5rem;
+    }
+}
+
+
+@media (max-width: 320px){
+    header h1{
+        font-size: 3rem;
+    }
+
+
+}
+
+
